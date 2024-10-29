@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "P8105 Homework 4"
   right:
+    - text: "About"
+      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<jw4690@cumc.columbia.edu>
     - icon: fa-github fa-lg
