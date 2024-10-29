@@ -6,3 +6,24 @@ output:
     toc_float: true
 ---
 
+### EDUCATION
+
+- **University of California, Irvine**: Mathematics, B.S. (September 2020- June 2024)
+
+- **University of Columbia, Mailman of Public Health**: M.S. Biostatistics (August 2024 - Now)
+
+### WORKEXPERIENCE
+
+- **C&D Logistics Co., Ltd.**: Data Analyst Intern (August 2023- September 2023)
+- **University of California, Irvine**: Math 5B Learning Assistant, Department of Mathematics (April 2023- June 2023)
+- **University of California, Irvine**:  Math 1A/1B Learning Assistant, Department of Mathematics ( September 2022- December 2022)
+
+### ACADEMICEXPERIENCE
+
+- GDP Project: Morley’s Triangle is Perspective to the Triangle (August 2023- September 2023)
+- Course Project: The Effects of Smoking and Drinking on Human Health (April 2023- June 2023)
+
+### SKILLS
+
+- **Technical (or Computer)**: Matlab, Python, R
+- **Language**: English, Mandarin
