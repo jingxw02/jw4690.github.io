@@ -21,3 +21,19 @@ rest_inspec = rest_inspec |>
   filter(grade == "P") |>
   drop_na(violation_description)
 ```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Number of Grade P Restaurants by Borough
+
+```{r}
+boro_counts <- rest_inspec %>%
+  group_by(boro) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count))
+
+boro_counts %>%
+  plot_ly(x = ~boro, y = ~count, type = 'bar')
+```
+
