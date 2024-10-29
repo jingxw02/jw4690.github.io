@@ -34,11 +34,8 @@ boro_counts <- rest_inspec %>%
   arrange(desc(count))
 
 boro_counts %>%
-  plot_ly(x = ~boro, y = ~count, type = 'bar')
+  plot_ly(x = ~boro, y = ~count, color = ~boro, type = 'bar', colors = 'viridis')
 ```
-
-Column {data-width=650}
------------------------------------------------------------------------
 
 ### Monthly Violation Count Over Time
 
@@ -50,5 +47,15 @@ violation_data <- rest_inspec %>%
 
 violation_data %>%
   plot_ly(x = ~month, y = ~violation_count, type = 'scatter', mode = 'markers') 
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Distribution of Inspection Scores by Borough
+
+```{r}
+rest_inspec %>%
+  plot_ly(x = ~boro, y = ~score, color = ~boro, type = 'box', colors = 'viridis')
 ```
 
