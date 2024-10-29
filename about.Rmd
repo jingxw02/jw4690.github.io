@@ -25,5 +25,5 @@ output:
 
 ### SKILLS
 
-- **Technical (or Computer)**: Matlab, Python, R
+- **Technical**: Matlab, Python, R
 - **Language**: English, Mandarin
