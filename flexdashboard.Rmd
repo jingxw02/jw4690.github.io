@@ -22,7 +22,7 @@ rest_inspec = rest_inspec |>
   drop_na(violation_description)
 ```
 
-Column {data-width=650}
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Number of Grade P Restaurants by Borough
@@ -35,5 +35,20 @@ boro_counts <- rest_inspec %>%
 
 boro_counts %>%
   plot_ly(x = ~boro, y = ~count, type = 'bar')
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Monthly Violation Count Over Time
+
+```{r}
+violation_data <- rest_inspec %>%
+  mutate(month = floor_date(inspection_date, "month")) %>%
+  group_by(month) %>%
+  summarize(violation_count = n())
+
+violation_data %>%
+  plot_ly(x = ~month, y = ~violation_count, type = 'scatter', mode = 'markers') 
 ```
 
