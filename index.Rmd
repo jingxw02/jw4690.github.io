@@ -11,3 +11,11 @@ output:
 I am a first year MS student in Biostatistics at Columbia University, Mailman School of Public Health. This website is a place where you can learn more about me and my work.
 
 You can use the navigation in the top right to explore my resume, get in touch, or check out my projects on GitHub.
+
+## About me
+
+If you'd like to learn more about me, visit [this page](about.html).
+
+## Dashboard
+
+[This page](flexdashboard.html) includes three distinct plot types using plotly.
